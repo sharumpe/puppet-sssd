@@ -1,12 +1,12 @@
 {
-  "name": "puppet-sssd",
-  "version": "4.0.7",
+  "name": "marckri-sssd",
+  "version": "4.0.6",
   "author": "Kristian Marcroft",
   "summary": "Install and configure SSSD",
   "license": "GPL-3.0",
-  "source": "https://github.com/sharumpe/puppet-sssd",
-  "project_page": "https://github.com/sharumpe/puppet-sssd",
-  "issues_url": "https://github.com/sharumpe/puppet-sssd/issues",
+  "source": "https://github.com/kmarcroft/puppet-sssd",
+  "project_page": "https://github.com/kmarcroft/puppet-sssd",
+  "issues_url": "https://github.com/kmarcroft/puppet-sssd/issues",
   "tags": [
     "sssd",
     "authentication",
@@ -20,6 +20,14 @@
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
       "operatingsystemrelease": [
         "8",
         "9",
